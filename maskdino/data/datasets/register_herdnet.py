@@ -114,7 +114,7 @@ def register_all_herdnet(root):
     """
     Register all HerdNet datasets from CSV format (1024x1024 patches)
     """
-    csv_root = "/home/lmanrique/Do/HerdNetLGM/data/bbox/1024"
+    csv_root = "/workspace/MaskDINO/data/1024"
 
     for split in ["train", "val", "test"]:
         register_herdnet_csv(
